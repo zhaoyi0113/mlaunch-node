@@ -1,0 +1,14 @@
+{
+  "name": "mlaunch-node",
+  "version": "0.0.1",
+  "description": "Test utils classes for test cases.",
+  "main": "src/index.js",
+  "author": "zhaoyi0113@gmail.com",
+  "license": "MIT",
+  "contributors": [{
+    "name": "Joey Yi Zhao",
+    "email": "zhaoyi0113@gmail.com"
+  }],
+  "scripts": {
+  }
+}
