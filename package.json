@@ -1,7 +1,7 @@
 {
   "name": "mlaunch-node",
   "version": "0.0.1",
-  "description": "Test utils classes for test cases.",
+  "description": "mlaunch nodejs utility.",
   "main": "src/index.js",
   "author": "zhaoyi0113@gmail.com",
   "license": "MIT",
