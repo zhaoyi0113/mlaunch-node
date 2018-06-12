@@ -3,7 +3,7 @@ const child_process = require('child_process');
 const path = require('path');
 const TMP_DIR = 'data';
 const MLAUNCH = 'mlaunch';
-const MGENERATE = 'mgenerate';
+const MGENERATE = 'mgeneratejs';
 /**
  * generate random port number between 6000 and 7000
  * @returns {number}

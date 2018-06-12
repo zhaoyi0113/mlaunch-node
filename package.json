@@ -1,6 +1,6 @@
 {
   "name": "mlaunch-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mlaunch nodejs utility.",
   "main": "src/index.js",
   "author": "zhaoyi0113@gmail.com",
