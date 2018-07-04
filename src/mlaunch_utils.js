@@ -17,7 +17,7 @@ const getRandomPort = () => {
  *
  * @param  type [description]
  */
-const launchMongoInstance = (type, port, parameters) => {
+const launchMongoInstance = (type, port, parameters = '') => {
   const separator = os.platform() === 'win32' ? '\\' : '/';
   let command = MLAUNCH +
     ' init ' +
@@ -52,7 +52,7 @@ const launchSingleInstance = (port, parameters = '') => {
  * launch replica set
  *
  */
-const launchReplicaSet = (port, nodenumber, parameters) => {
+const launchReplicaSet = (port, nodenumber, parameters = '') => {
   console.log('launch replica set ', port);
   launchMongoInstance('--replicaset', port, '--nodes ' + nodenumber + ' ' + parameters);
 };
@@ -63,7 +63,7 @@ const launchReplicaSet = (port, nodenumber, parameters) => {
  * @param nodenumber
  * @param parameters
  */
-const launchMongos = (port, nodenumber, parameters) => {
+const launchMongos = (port, nodenumber, parameters = '') => {
   launchMongoInstance('--mongos ' + nodenumber, port, parameters);
 };
 
