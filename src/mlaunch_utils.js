@@ -64,7 +64,7 @@ const launchReplicaSet = (port, nodenumber, parameters = '') => {
  * @param parameters
  */
 const launchMongos = (port, nodenumber, parameters = '') => {
-  launchMongoInstance('--mongos ' + nodenumber, port, parameters);
+  launchMongoInstance('--replicaset --mongos ' + nodenumber, port, parameters);
 };
 
 
